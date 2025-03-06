@@ -1,0 +1,139 @@
+@media (max-width:1500px) {
+    .gallery__content{
+        display: block;
+    }
+    .img__gal,.gallery__up,.gallery__down{
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        
+    }
+    .img__gal{
+        margin-bottom: 20px;
+    }
+    .gallery__down{
+        margin-bottom: 20px;
+    }
+    .bokal{
+        display: none;
+    }
+    
+}
+@media (max-width:1300px) {
+    .menu__items{
+        display: block;
+    }
+    .menu__item{
+        margin: 24px auto;
+        width: 400px;
+    }
+    .header__title{
+        position: static;
+    }
+    .header__suptitle::before,
+    .header__suptitle::after{
+        content: none;
+    }
+    .coock__image{
+        display: block;
+    }
+    .coock__img{
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 30px;
+    }
+   
+
+    .black-block__wrap{
+        display: block;
+    }
+    .left__title{
+        text-align: center;
+    }
+    .left__text{
+        text-align: center;
+   
+    }
+    .right__button{
+        text-align: center;
+        margin-top: 30px;
+    }
+    .history__images{
+        display: none;
+    }
+    .history__title,
+    .history__desk,
+    .history__namber{
+        width: auto;
+
+    }
+    .history__holder{
+        justify-content: center;
+    }
+}
+@media (max-width:1195px) {
+    .burger__menu_mobile
+    {display: block;
+    }
+    .nav,.cart,.phone,.nambe,.phon__text,.hero__bt{
+        display: none;
+    }
+    .header__line{
+        justify-content: space-between;
+    }
+    .burgers__image{
+        display: none;
+    }
+}
+
+@media (max-width:1000px)  {
+    .cards__holder{
+        display: block;
+        padding-right: 40px;
+    } 
+    .coock__img{
+        width: 100%;
+    }
+    .card{
+        width: 100%;
+        margin-top: 36px;
+        padding-bottom: 20px;
+    }
+    .history__namber{
+       display: none;
+    }
+    .header__title{
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 100%;
+    }
+    .header__subtitle{
+        margin-top: 5px;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 100%;
+    }
+    .header__suptitle{
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 100%;
+        margin-bottom: 45px;
+    }
+}
+@media (max-width:780px) {
+
+    .history__holder{
+        display: block;  
+    }
+    .menu__item{
+        width: auto;
+        font-size: 15px;
+    }
+    .conteiner{
+        margin: auto 40px;
+        padding: 15px;
+    }
+   
+   
+}
